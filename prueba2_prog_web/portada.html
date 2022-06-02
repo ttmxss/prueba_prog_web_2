@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portada</title>
+    <link rel="stylesheet" href="portada.css">
+    <!-- en bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function(){
+        $("#formulario").hide();
+        $("#btn_ocultar").click(function()
+        {
+            $("#formulario").hide();
+        });
+        $("#btn_mostrar").click(function(){
+            $("#formulario").show();
+        });
+    });
+</script>
+</head>
+<body>
+<!--Nav-->
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="portada.html">Inicio</a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Tus envíos  |</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="formulario.html">login  |</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sucursales</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Código de envío" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+<!--Logo empresa-->
+<center>
+<div >
+  <a href="portada.html"><img src="img/express_png.png" width="350" height="100"></a>
+</div>
+</center>
+
+<!--Imagen-->
+<center>
+  <img src="img/envio_portada.jpg" width="" height="450">
+</center>
+<br><br>
+
+<!--Texto a 2 columnas-->
+<div class="columnas">
+  <h4>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus vero ullam, sed saepe nam inventore, aliquid alias enim a amet voluptate libero laborum quos impedit omnis eius? Unde, facere voluptatum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, iusto? Culpa modi accusamus, quo nobis expedita minus aut repellat dolorem consectetur, ipsa rem beatae omnis sapiente facilis fugiat perspiciatis. Laudantium?
+  </h4>
+</div>
+
+
+<!-- Footer -->
+<div class="footer">
+<div class="b-example-divider"></div>
+
+<div class="container">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Correo:</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">envios-express@gmail.com</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">|</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Teléfono:</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">967795467</a></li>
+    </ul>
+    <center>
+    <table>
+      <tr>
+        <iframe width="390" height="215" src="https://www.youtube.com/embed/pi8EH0KFHZo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></tr>
+          <tr>""</tr><tr>""</tr><tr>""</tr><tr>""</tr><tr>""</tr><tr>""</tr>
+      <tr><iframe width="430" height="215" src="https://www.youtube.com/embed/xDC2DiCjqN0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></tr>
+      <td>""</td>
+    </table>
+    </center>
+    <p class="text-center text-muted">&copy; 2022 Company, Inc</p>
+  </footer>
+</div>
+</div>
+    
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
